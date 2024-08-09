@@ -7,18 +7,7 @@ export const ENDPOINT = {
     list_fail: '/api/users/23'
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+//////////////////////////////////////////////
 
 export const BASE_URL = {
     baseUrl: 'http://barru.pythonanywhere.com'
