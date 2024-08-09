@@ -8,6 +8,11 @@ export const INVALID_LOGIN = {
     password: '12345'
 }
 
+export const MAX_CHAR_LOGIN = {
+    email: 'gajjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjv@gmail.com',
+    password: '12345'
+}
+
 export const EMPTY_LOGIN = {
     email: '',
     password: ''

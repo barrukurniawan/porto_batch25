@@ -31,7 +31,7 @@ describe('Login feature', () => {
       },
     }).then((response) => {
       expect(response.status).to.equal(200);
-      expect(response.body.data).to.equal('User"s not found');
+      expect(response.body.data).to.equal("User's not found");
       expect(response.body.status).to.equal('FAILED_LOGIN');
       expect(response.body.message).to.equal('Email atau Password Anda Salah');
 
@@ -47,6 +47,7 @@ describe('Login feature', () => {
         password: EMPTY_LOGIN.password 
       },
     }).then((response) => {
+      // yang dikiri hasil hit     to equal    yang dikanan hasil dokumen
       expect(response.status).to.equal(200);
       expect(response.body.data).to.equal('Cek Formulir Anda');
       expect(response.body.status).to.equal('FAILED_LOGIN');
